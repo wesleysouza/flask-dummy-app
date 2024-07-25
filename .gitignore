@@ -1,0 +1,488 @@
+#Linux Packages
+*.deb
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+#### PYTHON
+
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# idea folder, uncomment if you don't need it
+# .idea
+
+### omnet
+
+*.so
+*.a
+*.dylib
+*.jnilib
+*.dll
+*.exe
+*.o
+*.obj
+*.class
+*_m.cc
+*_m.h
+*.tab.hh
+*.tab.cc
+*.bak
+*~
+*.orig
+*.pdb
+*.idb
+*.ilk
+*.manifest
+*.vci
+*.pyc
+*.out
+*.aux
+.ccls-cache
+.clangd
+.vscode/ipch
+*/__pycache__/*
+*.gdb_history
+*.last-copts
+.tkenvrc
+.tkenvlog
+*.cmdenv-log
+.qtenvrc
+lex.*yy.cc
+/tools
+/msys
+/mingw
+/config.log
+/config.status
+autom4te.cache/
+/bin/*
+out/
+/lib/
+/samples/inet/
+Thumbs.db
+backups
+/ide
+/Makefile.inc
+/makeui
+/mingwenv.cmd
+/include/systemc.h
+/include/systemc
+/include/systemcdefs.h
+/include/tlm.h
+/include/tlm
+/include/sysc
+/include/tlm_utils
+/include/tlm_core
+/src/common/ver.h
+/src/utils/opp_configfilepath
+/src/envir/eventlogwriter.cc
+/src/envir/eventlogwriter.h
+/src/eventlog/eventlogentries.cc
+/src/eventlog/eventlogentries.csv
+/src/eventlog/eventlogentries.h
+/src/eventlog/eventlogentryfactory.cc
+/src/guienv/registernatives.cc
+/src/guienv/simkernel_wrap.cxx
+/src/tkenv/tclcode.cc
+/src/tkenv/tclcode.inc
+/src/qtenv/qtenv.pro.user
+/src/utils/opp_configfilepath.cmd
+/src/nedxml/nedelements.*
+/src/nedxml/nedvalidator.*
+/src/include/
+.metadata
+.settings
+/ui/org.omnetpp.runtime.nativelibs/src/org/omnetpp/runtime/nativelibs/simkernel/
+/ui/org.omnetpp.ide.nativelibs/*.cxx
+/ui/org.omnetpp.ide.nativelibs/src/org/omnetpp/*/engine/
+/ui/org.omnetpp.ned.model/src/org/omnetpp/ned/model/pojo/*
+/ui/*/bin
+/samples/.metadata
+/samples/*/Makefile
+/samples/*/Makefile.vc
+/samples/*/*.mkv
+/samples/*/*/results/
+/samples/*/frames/
+/samples/*/results.*/
+/samples/*/results/
+/samples/aloha/aloha
+/samples/aloha/aloha_dbg
+/samples/canvas/canvas
+/samples/canvas/canvas_dbg
+/samples/cqn/cqn
+/samples/cqn/cqn_dbg
+/samples/dyna/dyna
+/samples/dyna/dyna_dbg
+/samples/embedding/embedding
+/samples/embedding/embedding_dbg
+/samples/embedding2/embedding2
+/samples/embedding2/embedding2_dbg
+/samples/fifo/fifo
+/samples/fifo/fifo_dbg
+/samples/histograms/histograms
+/samples/histograms/histograms_dbg
+/samples/hypercube/hypercube
+/samples/hypercube/hypercube_dbg
+/samples/neddemo/neddemo
+/samples/neddemo/neddemo_dbg
+/samples/openstreetmap/openstreetmap
+/samples/openstreetmap/openstreetmap_dbg
+/samples/osg-earth/data/
+/samples/osg-earth/osg-earth
+/samples/osg-earth/osg-earth_dbg
+/samples/osg-indoor/osg-indoor
+/samples/osg-indoor/osg-indoor_dbg
+/samples/osg-intro/osg-intro
+/samples/osg-intro/osg-intro_dbg
+/samples/osg-satellites/osg-satellites
+/samples/osg-satellites/osg-satellites_dbg
+/samples/petrinets/petrinets
+/samples/petrinets/petrinets
+/samples/petrinets/petrinets_dbg
+/samples/petrinets/petrinets_dbg
+/samples/phy/phy
+/samples/phy/phy_dbg
+/samples/queueinglib/queueinglib_dbg.lib
+/samples/queueinglib/queueinglib.lib
+/samples/routing/routing
+/samples/routing/routing_dbg
+/samples/sockets/sockets
+/samples/sockets/sockets_dbg
+/samples/tictoc/tictoc
+/samples/tictoc/tictoc_dbg
+/samples/wiredphy/wiredphy
+/samples/wiredphy/wiredphy_dbg
+/tmp/
+/ui/org.omnetpp.test.gui/test-workspace/.metadata
+/ui/_*/
+/test/*/work/
+/test/nedtool/nedc-negtests/*.out
+/test/eventlog/result/
+/test/eventlog/elog/generated/
+/test/eventlog/elog/filtered/
+/test/fingerprint/results/
+/test/msgc/results/
+/test/stress/results/
+/test/build/_buildlog
+/test/anim/*/Makefile
+/msys/
+/mingw/
+/samples/*/doc/
+/configure.user
+/configuser.vc
+/test/scave/charttemplates/export/
+/test/scave/results_api/results/
+/test/misc/neddocext/doc/neddoc/
+/test/misc/filereader/generated/
+/test/misc/filereader/results/
+/doc/src/manual/usman.fls
+/doc/src/manual/usman.idx
+/doc/src/manual/usman.ilg
+/doc/src/manual/usman.log
